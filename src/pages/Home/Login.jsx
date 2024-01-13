@@ -8,7 +8,7 @@ const Login = () => {
     const { signIn } = useContext(AuthContext);
     const handleLogin = e => {
         e.preventDefault();
-        console.log(e.currentTarget);
+        // console.log(e.currentTarget);
         const form = new FormData(e.currentTarget);
         // console.log(form.get('email'));
         const email = form.get('email')
@@ -43,7 +43,7 @@ const Login = () => {
                             </label>
                         </div>
                         <div className="form-control mt-6">
-                            <button  className="btn btn-primary">Login</button>
+                            <button className="btn btn-primary">Login</button>
                         </div>
                     </div>
                 </form>

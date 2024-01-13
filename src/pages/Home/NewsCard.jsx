@@ -2,7 +2,7 @@ import { CiBookmark } from "react-icons/ci";
 import { FaShareNodes } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 const NewsCard = ({ news }) => {
-    console.log(news);
+    // console.log(news);
     const { _id, others_info, total_view, author, title, badge, rating, category_id, thumbnail_url, details, image_url } = news;
 
     return (
